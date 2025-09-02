@@ -31,12 +31,12 @@ nav {
   gap: 2rem;
 }
 .nav-btn button {
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   background-color: hsl(136, 64%, 51%);
   color: white;
   border: none;
   border-radius: 50px;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   cursor: pointer;
 }
@@ -240,6 +240,57 @@ footer {
 }
 .footer-part2 p {
   color: white;
+}
+
+@media (max-width: 1145px) {
+  nav {
+    padding: 1rem 3.5rem;
+  }
+  .nav-part1 img {
+    width: 14rem;
+  }
+  .nav-part2 a {
+    font-size: 1rem;
+  }
+  .nav-btn button {
+    font-size: 0.9em;
+  }
+  .center-part1 {
+    width: 30%;
+    padding: 5rem 5rem;
+  }
+  .center-part1 h1 {
+    font-size: 3rem;
+  }
+  .center-part1 p {
+    font-size: 1rem;
+  }
+  .center-part2 {
+    width: 30%;
+  }
+  .center-part2 .mockup-img {
+    width: 44rem;
+  }
+  .center-part2 .bg-img {
+    width: 74rem;
+    top: -35%;
+    left: -130%;
+  }
+  footer {
+    margin: auto;
+  }
+  .footer-part1 {
+    gap: 2.5rem;
+  }
+  .footer-part2 {
+    margin-left: auto;
+  }
+  .fpart-1 .logo {
+    margin-left: 4rem;
+  }
+  .icons {
+    margin-left: 4rem;
+  }
 }
 
 /* Tablet layout (≤1024px) */
